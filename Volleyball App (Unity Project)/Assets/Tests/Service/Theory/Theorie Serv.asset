@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Theorie Serv
+  m_EditorClassIdentifier: 
+  title: Theorie Service
+  description: "Service Rechtsh\xE4ndler: Ein wichtiges Ritual vor dem Service ist
+    sehr empfehlenswert. Das linke Bein steht vor dem Rechten, wobei das Gewicht
+    am Anfang auf dem Rechten verlagert ist. [Bild] \xD6ffne deinen K\xF6rper, spann
+    deinen Ellbogen nach hinten oben und halte den Ball mit einem gestreckten Arm
+    vor dir. Jetzt hast du die Ausgangsposition eingenommen. [Bild] Der Aufwurf des
+    Balls ist das Wichtigste am Service. Lass dir Zeit und konzentriere dich. Wenn
+    du nun deinen Ball nun aufwirfst, schau darauf, dass er genug lange fliegt, wodurch
+    du auch Zeit zum Schlagen hast. Der Ball sollte vor deinem rechten,- und rechts
+    von deinem linken Fuss auf dem Boden landen [Video/Bild] Beim Schlagen rotierst
+    du deinen K\xF6rper nach vorne und verlagerst dein Gewicht auf das linke Bein
+    [Bild]. Parallel dazu schnellt dein Ellbogen \xFCber deine Schlagschulter und
+    zieht den Unterarm mit der Hand nach. [Bild] Du triffst den Ball mit gestrecktem
+    Arm [Bild]. Schlussendlich sieht das ganze wie eine Peitschenhieb Bewegung des
+    Schlagarms aus. [Video]  Service mit Vorw\xE4rtsdrall: Wenn du willst, dass sich
+    der Ball mit Vorw\xE4rtsdrall in das gegnerische Feld \u201Cgr\xE4bt\u201D dann
+    mach Folgendes: [Video] Triff den Ball mit einer gespreizten, leicht gekr\xFCmmten
+    Hand am oberen Ende des Ball \xC4quators [Bild] Beim Kontakt mit dem Ball klappst
+    du deine Hand so stark wie m\xF6glich ein und probierst, dein Handgelenk \xFCber
+    den Ball zu rollen. [Video oder Bild] Wenn du noch mehr Vorw\xE4rtsdrall dazu
+    geben m\xF6chtest, wirf den Ball schon so hoch, dass er beim Aufwurf Vorw\xE4rtsdrall
+    hat. So kombinieren sich der Drall des Aufwurfs und der Drall des Schlages. 
+    Service mit gar keinem Drall (Flatterball):  Probiere, mit deiner Schlaghand
+    eine flache Fl\xE4che zu rekonstruieren. Zus\xE4tzlich spreizt du sie, um mehr
+    Fl\xE4che zu haben. Zus\xE4tzlich soll dein Handgelenk verkrampft sein, so dass
+    deine Hand eine Verl\xE4ngerung des Armes ist.  Beim Ballkontakt darf man das
+    Handgelenk nicht einklappen. Den Ball solltest du mit deiner Hand auf der \xC4quatorh\xF6he
+    treffen. Zus\xE4tzlich sollte der Ball schon beim Aufwurf keinen Drall aufweisen.
+    [Bild] Wenn alles richtig ausgef\xFChrt wird, sollte der Ball keinen Drall in
+    der Luft aufweisen und \u201Cflattern\u201D. "
+  repetitions: 0
+  level: 0
+  excercise: 0
+  category: 2
+  path: 2

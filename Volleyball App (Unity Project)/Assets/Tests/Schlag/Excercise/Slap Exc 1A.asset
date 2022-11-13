@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Slap Exc 1A
+  m_EditorClassIdentifier: 
+  title: Ballaufwurf
+  description: "Ball Aufwurf \xFCben. Der Ball sollte konstant immer gleich hoch
+    und an derselben Stelle aufgeworfen werden. Der Ball muss vor der Schlaghand
+    ca. 3m in die Luft aufgeworfen werden. Je nach Person anders. Dies wird auch
+    f\xFCr den Service wichtig sein. Teil 1 und Teil 2 ist den Anlauf \xFCben. 3
+    Schritte nach Theorie richtig ausf\xFChren. Schwung vom Anlauf in die H\xF6he
+    mitnehmen. Um den Anlauf zu \xFCben kann man ihn auch an einer Wand probieren,
+    welche das Netz darstellen sollte. Man darf das Netz sowieso nicht ber\xFChren
+    also sollte man auch die Wand nicht ber\xFChren. "
+  repetitions: 20
+  level: 1
+  excercise: 1
+  category: 3
+  path: 0
