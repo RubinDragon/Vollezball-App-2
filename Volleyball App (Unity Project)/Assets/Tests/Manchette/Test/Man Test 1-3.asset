@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Test 1
   description: Nimm den Ball vomm Boden auf
-  repetitions: 21
+  repetitions: 20
   level: 1
   excercise: 0
   category: 1

@@ -1,3 +1,4 @@
+using TMPro;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -51,6 +52,10 @@ public class AppManager : MonoBehaviour
             stats = new PlayerStats();
             SaveStats();
         }
+
+        RefreshButtons();
+        DisplayStats();
+
     }
 
     public void RefreshButtons()
@@ -86,7 +91,6 @@ public class AppManager : MonoBehaviour
         {
             theory.Show();
             theoryScript.LoadTestData();
-
         }
   
     }
@@ -215,8 +219,8 @@ public class AppManager : MonoBehaviour
         stats.averagePercent = Round(stats.averagePercent, 1);
     }
 
-    // stage 1: 40%+
-    // stage 2: 80%+
+    // stage 1: 45%+
+    // stage 2: 85%+
     public void TestSuccess(bool test1to3, bool stage1completion)
     {
         if (test1to3 && stage1completion) SetLevel(category, 2);
@@ -230,6 +234,29 @@ public class AppManager : MonoBehaviour
             print("event called");
         }
     }
+
+    public TextMeshProUGUI totalExercises;
+    public TextMeshProUGUI totalReps;
+    public TextMeshProUGUI totalSucc;
+    public TextMeshProUGUI averageSucc;
+    public TextMeshProUGUI levelPass;
+    public TextMeshProUGUI levelManchette;
+    public TextMeshProUGUI levelSlap;
+    public TextMeshProUGUI levelServe;
+
+    public void DisplayStats()
+    {
+        totalExercises.SetText("Totale Übungen: " + stats.totalExercises);
+        totalReps.SetText("Totale Wiederholungen: " + stats.totalRepetitions);
+        totalSucc.SetText("Totale Erfolgreiche Übungen: " + stats.exercisesSucceeded);
+        averageSucc.SetText("Durchschnittliche Erfolgsrate: " + stats.averagePercent);
+        levelPass.SetText("Level Pass: " + stats.passLevel);
+        levelManchette.SetText("Level Manchette: " + stats.manchetteLevel);
+        levelSlap.SetText("Level Schlag: " + stats.serviceLevel);
+        levelServe.SetText("Level Service: " + stats.schlagLevel);
+    }
+
+
 
     public void SetLevel(Category category, int level)
     {

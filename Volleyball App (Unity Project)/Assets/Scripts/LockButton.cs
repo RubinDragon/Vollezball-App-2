@@ -7,20 +7,32 @@ public class LockButton : MonoBehaviour
 {
     public int minLevelRequired;
 
-    private void Start()
+    
+    private void Awake()
     {
-        Refresh();
-
-        // subscribe to events
-        AppManager.instance.testDone += Refresh;
-        print("subscribed");
-    }
-
-    private void Refresh()
-    {
-        if(AppManager.instance.GetLevel(AppManager.instance.category) < minLevelRequired)
+        if (AppManager.instance.GetLevel(AppManager.instance.category) < minLevelRequired)
         {
             GetComponent<Button>().interactable = false;
         }
+        else
+        {
+            GetComponent<Button>().interactable = true;
+        }
+
     }
+
+    private void Update()
+    {
+        if (AppManager.instance.GetLevel(AppManager.instance.category) < minLevelRequired)
+        {
+            GetComponent<Button>().interactable = false;
+        }
+        else
+        {
+            GetComponent<Button>().interactable = true;
+        }
+        
+    }
+
+
 }
