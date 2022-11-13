@@ -6,7 +6,15 @@ using UnityEngine;
 public class UiView : MonoBehaviour
 {
     public GameObject content;
-    
+
+    private void Start()
+    {
+        if (gameObject.name == "View - MainScreen")
+            transform.Find("Content").gameObject.SetActive(true);
+        else
+            transform.Find("Content").gameObject.SetActive(false);
+    }
+
     public void Show()
     {
 

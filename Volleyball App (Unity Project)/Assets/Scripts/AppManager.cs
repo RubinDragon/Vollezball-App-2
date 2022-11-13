@@ -35,12 +35,37 @@ public class AppManager : MonoBehaviour
     public List<string> positiveMessages;
     public List<string> negativeMessages;
 
-    public PlayerStats stats;
+    public event Action testDone;
 
     private void Awake()
     {
         instance = this;
-        
+
+        LoadStats();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            stats = new PlayerStats();
+            SaveStats();
+        }
+    }
+
+    public void RefreshButtons()
+    {
+        if(testDone != null) testDone();
+    }
+
+    public AudioSource source;
+    public void PlayDaSound()
+    {
+        source.Play();
+    }
+    public void StopDaDound()
+    {
+        source.Stop();
     }
 
     #region Buttons
@@ -70,7 +95,6 @@ public class AppManager : MonoBehaviour
 
 
     #endregion
-
 
     #region Paths
 
@@ -123,11 +147,145 @@ public class AppManager : MonoBehaviour
     }
 
     #endregion
+
+    #region Stats
+
+    // Stats Screen:
+    // - total exercises done
+    // - total repetitions
+    // - average percent (maybe failed, suceeded)
+
+    public PlayerStats stats;
+
+    public void LoadStats()
+    {
+        stats = new PlayerStats();
+
+        if(PlayerPrefs.HasKey("TotalExercises"))
+            stats.totalExercises = PlayerPrefs.GetInt("TotalExercises");
+
+        if (PlayerPrefs.HasKey("TotalRepetitions"))
+            stats.totalRepetitions = PlayerPrefs.GetInt("TotalRepetitions");
+
+        if (PlayerPrefs.HasKey("AveragePercent"))
+            stats.averagePercent = PlayerPrefs.GetFloat("AveragePercent");
+
+        // level
+
+        if (PlayerPrefs.HasKey("PassLevel"))
+            stats.passLevel = PlayerPrefs.GetInt("PassLevel");
+
+        if (PlayerPrefs.HasKey("ServiceLevel"))
+            stats.serviceLevel = PlayerPrefs.GetInt("ServiceLevel");
+
+        if (PlayerPrefs.HasKey("ManchetteLevel"))
+            stats.manchetteLevel = PlayerPrefs.GetInt("ManchetteLevel");
+
+        if (PlayerPrefs.HasKey("SchlagLevel"))
+            stats.schlagLevel = PlayerPrefs.GetInt("SchlagLevel");
+    }
+
+    public void SaveStats()
+    {
+        PlayerPrefs.SetInt("TotalExercises", stats.totalExercises);
+        PlayerPrefs.SetInt("TotalRepetitions", stats.totalRepetitions);
+        PlayerPrefs.SetFloat("AveragePercent", stats.averagePercent);
+
+        // level
+
+        PlayerPrefs.SetInt("PassLevel", stats.passLevel);
+        PlayerPrefs.SetInt("ServiceLevel", stats.serviceLevel);
+        PlayerPrefs.SetInt("ManchetteLevel", stats.manchetteLevel);
+        PlayerPrefs.SetInt("SchlagLevel", stats.schlagLevel);
+    }
+
+    public void IncreaseRepetition() { stats.totalRepetitions++; }
+    public void IncreaseExercises(bool success) 
+    { 
+        stats.totalExercises++;
+
+        // success
+        if(success)
+        {
+            stats.exercisesSucceeded++;
+        }
+
+        // recalculate average
+        stats.averagePercent = ((float)stats.exercisesSucceeded / (float)stats.totalExercises) * 100f;
+        stats.averagePercent = Round(stats.averagePercent, 1);
+    }
+
+    // stage 1: 40%+
+    // stage 2: 80%+
+    public void TestSuccess(bool test1to3, bool stage1completion)
+    {
+        if (test1to3 && stage1completion) SetLevel(category, 2);
+        if (test1to3 && !stage1completion) SetLevel(category, 3);
+        if (!test1to3 && stage1completion) SetLevel(category, 4);
+        if (!test1to3 && !stage1completion) SetLevel(category, 5);
+
+        if (testDone != null)
+        {
+            testDone();
+            print("event called");
+        }
+    }
+
+    public void SetLevel(Category category, int level)
+    {
+        if (category == Category.Pass)
+            stats.passLevel = level;
+
+        if (category == Category.Service)
+            stats.serviceLevel = level;
+
+        if (category == Category.Manchette)
+            stats.manchetteLevel = level;
+
+        if (category == Category.Schlag)
+            stats.schlagLevel = level;
+
+        SaveStats();
+    }
+
+    public int GetLevel(Category category)
+    {
+        if (category == Category.Pass)
+            return stats.passLevel;
+
+        if (category == Category.Service)
+            return stats.serviceLevel;
+
+        if (category == Category.Manchette)
+            return stats.manchetteLevel;
+
+        if (category == Category.Schlag)
+            return stats.schlagLevel;
+
+        return 0;
+    }
+
+    public static float Round(float value, int digits)
+    {
+        float mult = Mathf.Pow(10.0f, (float)digits);
+        return Mathf.Round(value * mult) / mult;
+    }
+
+    #endregion
 }
 
 [Serializable]
 public class PlayerStats
 {
-    public int totalExcersisesDone;
+    [Header("Stats")]
+    public int totalExercises;
+    public int exercisesSucceeded;
+    public int totalRepetitions;
+    public float averagePercent;
 
+    [Header("Level")]
+    public int passLevel = 1;
+    public int manchetteLevel = 1;
+    public int serviceLevel = 1;
+    public int schlagLevel = 1;
 }

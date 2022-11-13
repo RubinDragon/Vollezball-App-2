@@ -37,8 +37,30 @@ public class ViewActive : MonoBehaviour
         AppManager.instance.currSuccessCount = sucessCount;
         view_finished.GetComponent<ViewFinished>().LoadData();
 
-        CustomReset();
+        // stats
+        bool success = sucessCount > failCount;
+        AppManager.instance.IncreaseExercises(success);
+        AppManager.instance.IncreaseRepetition();
+        AppManager.instance.SaveStats();
+
+        // level system
+        if(AppManager.instance.path == AppManager.Path.Test)
+        {
+            bool testSuccess = sucessCount >= 9;
+
+            if (testSuccess)
+            {
+                bool stage1completion = sucessCount < 18;
+                bool test1to3 = AppManager.instance.level == 1;
+
+                AppManager.instance.TestSuccess(test1to3, stage1completion);
+            }
+        }
+
+        Invoke(nameof(CustomReset),0.5f);
         GetComponent<UiView>().Hide();
+
+        AppManager.instance.StopDaDound();
     }
 
     public void CustomReset()

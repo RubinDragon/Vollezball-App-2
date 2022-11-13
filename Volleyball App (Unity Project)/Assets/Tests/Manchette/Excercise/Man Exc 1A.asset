@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Gaga maga
   description: zou ara ara gaz
-  repetitions: 0
+  repetitions: 20
   level: 1
   excercise: 1
   category: 1

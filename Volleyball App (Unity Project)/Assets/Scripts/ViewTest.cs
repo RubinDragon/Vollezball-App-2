@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class ViewTest : MonoBehaviour
 {
@@ -10,10 +11,10 @@ public class ViewTest : MonoBehaviour
     public TextMeshProUGUI text_title;
     public TextMeshProUGUI text_description;
 
+    public RectTransform scrollRect;
+
     public void LoadTestData()
     {
-        
-        
         TestData data = null;
 
         for (int i = 0; i < testDatas.Count; i++)
@@ -33,6 +34,6 @@ public class ViewTest : MonoBehaviour
 
         FindObjectOfType<ViewActive>().LoadAllText();
 
-
+        LayoutRebuilder.ForceRebuildLayoutImmediate(scrollRect);
     }
 }
