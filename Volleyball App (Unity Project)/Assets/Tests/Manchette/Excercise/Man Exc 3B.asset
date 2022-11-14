@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Man Exc 3B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Schlagabnahme zum Passeur
+  description: 'Der Ball wird von ca. 5-7m Entfernung geschlagen. Ein leichter und
+    gezielter schlag. Das Ziel ist es den Ball auf einen vorher festgelegten Punkt
+    abzunehmen, welcher den Zuspieler imitieren soll. '
+  repetitions: 20
   level: 3
   excercise: 2
   category: 1

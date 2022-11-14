@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Man Exc 1B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Manchette in Bewegung
+  description: Stehe ca. 6m von der Wand entfernt und wirf den Ball gegen die Wand.
+    Man muss schnell nach vorne kommen und den Ball mit der Manchette annehmen.
+  repetitions: 20
   level: 1
   excercise: 2
   category: 1

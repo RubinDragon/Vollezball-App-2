@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Pass Exc 5A
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Passuer Simulator
+  description: Den Pass in einen Angriff integrieren. Ein Angreifer passt einem zu
+    und man selbst passt den Ball dann so, damit er geschlagen werden kann. Wenn
+    kein Netz vorhanden ist, kann man ein Dreieck bilden und immer Passen angreifen
+    annehmen wie bei Salz und Pfeffer.
+  repetitions: 20
   level: 5
   excercise: 1
   category: 0

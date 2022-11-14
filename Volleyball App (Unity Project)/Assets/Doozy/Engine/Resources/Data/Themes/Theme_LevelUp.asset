@@ -36,7 +36,15 @@ MonoBehaviour:
   FontLabels: []
   FontAssetLabels: []
   VariantsNames:
-  - Default
+  - Aqua
+  - CiFi
+  - City
+  - Dots
+  - Fire
+  - Fur
+  - Gold
+  - Neon
+  - Stone
   Variants:
   - m_variantName: Neon
     SerializedGuid: 25481e5ac2098b44897736a82131a75e

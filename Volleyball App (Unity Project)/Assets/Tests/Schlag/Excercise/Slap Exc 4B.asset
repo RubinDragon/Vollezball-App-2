@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Slap Exc 4B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Abdrehender Schlag im Sprung - Kraft
+  description: "Man Schl\xE4gt den Ball am Netz und dreht sich ab. Diesmal muss der
+    Anlauf und der Sprung richtig nach Theorie ausgef\xFChrt werden. Diesmal schl\xE4gt
+    man mit mehr Kraft. "
+  repetitions: 20
   level: 4
   excercise: 2
   category: 3

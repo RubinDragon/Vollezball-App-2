@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Serv Exc 2B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: "Service mit Vorw\xE4rtsdrall"
+  description: "Die Hand trifft den Ball \xFCber dem Ball\xE4quator. Beim Kontakt
+    klappt man das Handgelenk so stark wie m\xF6glich ein. Um dem Ball noch mehr
+    Drall zu geben kann man den Ball schon mit Vorw\xE4rtsdrall aufwerfen. "
+  repetitions: 20
   level: 2
   excercise: 2
   category: 2

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Slap Exc 5B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: "Das Duell der L\xFCfte"
+  description: "Bei dieser \xDCbung versucht der Block aktiv den Ball zu blocken
+    und passt sich, je nachdem wo der Ball hinfliegt, an. Das Ziel ist es am Block
+    vorbeizuschlagen, den Block fr\xFChzeitig zu erkennen und intelligent anzugreifen. "
+  repetitions: 20
   level: 5
   excercise: 2
   category: 3

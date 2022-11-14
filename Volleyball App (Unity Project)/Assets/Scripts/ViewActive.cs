@@ -14,8 +14,8 @@ public class ViewActive : MonoBehaviour
     public UIView view_finished;
 
     private float overallCount;
-    private float sucessCount;
-    private float failCount;
+    public float sucessCount;
+    public float failCount;
 
     public void Setup()
     {
@@ -44,7 +44,7 @@ public class ViewActive : MonoBehaviour
         view_finished.GetComponent<ViewFinished>().LoadData();
 
         // stats
-        bool success = sucessCount > failCount;
+        bool success = sucessCount >= 16;
         AppManager.instance.IncreaseExercises(success);
         AppManager.instance.IncreaseRepetition();
         AppManager.instance.SaveStats();

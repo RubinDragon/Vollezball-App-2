@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Slap Exc 1B
   m_EditorClassIdentifier: 
-  title: Ball Schlagen
-  description: "Ball aufwerfen vor den K\xF6rper Den Ball gegen den Boden schlagen
-    damit er von der Wand wieder abprallt. Ball fangen. Dies ist eine Wiederholung.
-    So lange machen, bis man einige davon hintereinander machen kann. "
+  title: Wandpraller
+  description: "Man stellt sich ca. 5m vor eine Wand und wirft den Ball auf. Danach
+    schl\xE4gt man den Ball. Er sollte gegen den Boden aufkommen, gegen die Wand
+    prallen und dann wieder zu einem zur\xFCckkommen. Danach wird der Ball gefangen."
   repetitions: 20
   level: 1
   excercise: 2

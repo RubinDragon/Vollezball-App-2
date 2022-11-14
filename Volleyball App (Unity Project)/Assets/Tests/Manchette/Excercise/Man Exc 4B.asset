@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Man Exc 4B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Fintenabnahme in Bewegung
+  description: "Der Ball wird aggressiv gefintet. Die Finte sollte nicht auf den
+    Spieler direkt gehen, sondern mal kurz mal lange und seitlich vom Spieler platziert
+    werden. Das Ziel ist es, den Ball wieder auf den Kopf des Mitspielers zur\xFCck
+    zu bringen. "
+  repetitions: 20
   level: 4
   excercise: 2
   category: 1

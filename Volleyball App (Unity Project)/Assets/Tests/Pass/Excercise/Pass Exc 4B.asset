@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Pass Exc 4B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: "R\xFCckw\xE4rtspass"
+  description: "Zu dritt stellt man sich in einer Reihe auf. Die Kollegen aussen
+    schauen zum Kollegen in der Mitte und spielen ihm einen Pass. Der in der Mitte
+    macht einen R\xFCckw\xE4rtspass zum einen, bekommt den Pass zur\xFCck und macht
+    einen r\xFCckw\xE4rtspass dann zum Anderen. "
+  repetitions: 20
   level: 4
   excercise: 2
   category: 0

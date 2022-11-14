@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Serv Exc 3B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: "Grobe Pr\xE4zision 2"
+  description: "Man nimmt eine Matte oder etwas \xE4hnliches (ein wenig gr\xF6sser)
+    und versucht darauf oder in die N\xE4he davon (ca. 1m umkreis) zu servieren. "
+  repetitions: 20
   level: 3
   excercise: 2
   category: 2

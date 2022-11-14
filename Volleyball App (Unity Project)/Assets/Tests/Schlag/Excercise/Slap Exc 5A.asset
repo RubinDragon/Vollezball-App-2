@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Slap Exc 5A
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Luftblockade
+  description: "Bei dieser \xDCbung schl\xE4gt man den Ball wieder am Netz jedoch
+    gibt es einen Einerblock. Der Block soll einen grossz\xFCgigen Spalt zwischen
+    der Antenne offen lassen damit man daran auf die Linie vorbei schlagen kann."
+  repetitions: 20
   level: 5
   excercise: 1
   category: 3

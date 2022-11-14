@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Serv Exc 4B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Starker Service
+  description: "Der Ball wird mit mehr Wucht serviert. Die Kraft sollte zunehmen,
+    jedoch sollte die Pr\xE4zision nur schwach abnehmen."
+  repetitions: 20
   level: 4
   excercise: 2
   category: 2

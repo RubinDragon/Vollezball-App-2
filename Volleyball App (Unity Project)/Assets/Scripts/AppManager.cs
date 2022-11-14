@@ -204,7 +204,7 @@ public class AppManager : MonoBehaviour
         PlayerPrefs.SetInt("SchlagLevel", stats.schlagLevel);
     }
 
-    public void IncreaseRepetition() { stats.totalRepetitions++; }
+    public void IncreaseRepetition() { stats.totalRepetitions += 20; }
     public void IncreaseExercises(bool success) 
     { 
         stats.totalExercises++;
@@ -240,21 +240,15 @@ public class AppManager : MonoBehaviour
     public TextMeshProUGUI totalReps;
     public TextMeshProUGUI totalSucc;
     public TextMeshProUGUI averageSucc;
-    public TextMeshProUGUI levelPass;
-    public TextMeshProUGUI levelManchette;
-    public TextMeshProUGUI levelSlap;
-    public TextMeshProUGUI levelServe;
+    
 
     public void DisplayStats()
     {
-        totalExercises.SetText("Totale Übungen: " + stats.totalExercises);
-        totalReps.SetText("Totale Wiederholungen: " + stats.totalRepetitions);
+        totalExercises.SetText(stats.totalExercises+ "");
+        totalReps.SetText(stats.totalRepetitions+ "");
         totalSucc.SetText("Totale Erfolgreiche Übungen: " + stats.exercisesSucceeded);
-        averageSucc.SetText("Durchschnittliche Erfolgsrate: " + stats.averagePercent);
-        levelPass.SetText("Level Pass: " + stats.passLevel);
-        levelManchette.SetText("Level Manchette: " + stats.manchetteLevel);
-        levelSlap.SetText("Level Schlag: " + stats.serviceLevel);
-        levelServe.SetText("Level Service: " + stats.schlagLevel);
+        averageSucc.SetText(stats.averagePercent + "%");
+    
     }
 
 

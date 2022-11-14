@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Man Test 1-3
   m_EditorClassIdentifier: 
-  title: Test 1
+  title: Test Beginner
   description: Nimm den Ball vomm Boden auf
   repetitions: 20
   level: 1

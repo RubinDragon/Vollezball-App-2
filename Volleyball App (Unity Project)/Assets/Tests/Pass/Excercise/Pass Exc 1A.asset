@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Pass Exc 1A
   m_EditorClassIdentifier: 
-  title: Gaga maga
-  description: zou ara ara gaz
-  repetitions: 0
+  title: Pass an der Wand
+  description: "Eigenp\xE4sse mit der Wand. Es soll darauf geachtet werden, dass
+    diese einfach zu machen sind."
+  repetitions: 20
   level: 1
   excercise: 1
   category: 0

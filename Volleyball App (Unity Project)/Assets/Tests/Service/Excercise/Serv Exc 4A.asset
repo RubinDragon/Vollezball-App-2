@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Serv Exc 4A
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Service und Annahme
+  description: "Ein Kollege versucht die servierten B\xE4lle anzunehmen. Wichtig
+    dabei ist, dass der Ball einfach sein,- und gezielt auf den Kollegen kommen soll."
+  repetitions: 20
   level: 4
   excercise: 1
   category: 2

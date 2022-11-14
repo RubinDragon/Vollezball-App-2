@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Slap Exc 2B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Erste Angriffe
+  description: "Der Ball wird am Netz geschlagen. Ein Kollege passt den Ball zu oder
+    wirft ihn auf. Das Ziel ist es, das Netz nicht zu ber\xFChren und den Anlauf
+    und die Schlagtechnik richtig auszuf\xFChren. Ebenfalls auf das Timing zu achten.
+    Wenn kein Netz vorhanden ist, geht alternativ auch ein Klebeband, Seil oder ein
+    (dickerer)Faden, welcher auf einer H\xF6he von 2.43m gespannt ist."
+  repetitions: 20
   level: 2
   excercise: 2
   category: 3

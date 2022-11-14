@@ -6,20 +6,9 @@ using UnityEngine.UI;
 public class LockButton : MonoBehaviour
 {
     public int minLevelRequired;
-
     
-    private void Awake()
-    {
-        if (AppManager.instance.GetLevel(AppManager.instance.category) < minLevelRequired)
-        {
-            GetComponent<Button>().interactable = false;
-        }
-        else
-        {
-            GetComponent<Button>().interactable = true;
-        }
 
-    }
+
 
     private void Update()
     {
@@ -31,8 +20,22 @@ public class LockButton : MonoBehaviour
         {
             GetComponent<Button>().interactable = true;
         }
-        
+
     }
+
+    //private void Awake()
+    //{
+
+    //  if (AppManager.instance.GetLevel(AppManager.instance.category) < minLevelRequired)
+    //  {
+    //          GetComponent<Button>().interactable = false;
+    //  }
+    //   else
+    //   {
+    //    GetComponent<Button>().interactable = true;
+    //   }
+
+    //}
 
 
 }

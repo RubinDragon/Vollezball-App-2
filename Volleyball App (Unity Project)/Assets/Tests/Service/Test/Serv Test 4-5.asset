@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Serv Test 4-5
   m_EditorClassIdentifier: 
-  title: 
+  title: Test Fortgeschritten
   description: 
   repetitions: 0
   level: 2

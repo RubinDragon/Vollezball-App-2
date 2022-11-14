@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Pass Exc 4A
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Pass am Netz 2
+  description: Man spielt auf ein etwas kleineres Ziel oder einen Mitspieler einer
+    Wand oder dem Netz entlang. Der Kollege kann sich auch daran versuchen den Ball
+    zu schlagen.
+  repetitions: 20
   level: 4
   excercise: 1
   category: 0

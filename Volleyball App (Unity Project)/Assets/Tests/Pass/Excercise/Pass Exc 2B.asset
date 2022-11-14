@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Pass Exc 2B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Pass mal weit mal kurz
+  description: "Man steht einem Kollegen gegen\xFCber mit welchem man hin,- und her
+    passt. Der Kollege kann zwischen weiten und kurzen P\xE4ssen variieren, um die
+    Beinarbeit zu beanspruchen. "
+  repetitions: 20
   level: 2
   excercise: 2
   category: 0

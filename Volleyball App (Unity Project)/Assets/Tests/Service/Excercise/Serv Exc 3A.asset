@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Serv Exc 3A
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: "Grobe Pr\xE4zision"
+  description: 'Man versucht grob in eine Richtung des Felds zu servieren. Am besten
+    unterteilt man sich das Feld in 4 Teile und ein Kollege stellt sich jeweils in
+    einen der vier Teile. '
+  repetitions: 20
   level: 3
   excercise: 1
   category: 2

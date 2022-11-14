@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Man Exc 4A
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Schlag- und Fintenabnahme
+  description: "Der Ball wird von einer ca. 5-7m Entfernung gefintet oder geschlagen.
+    Das Ziel ist es, den Ball wieder auf den Kopf des Mitspielers zur\xFCck zu bringen.
+    Wenn es m\xF6glich ist, versuchen direkt weiterspielen."
+  repetitions: 20
   level: 4
   excercise: 1
   category: 1

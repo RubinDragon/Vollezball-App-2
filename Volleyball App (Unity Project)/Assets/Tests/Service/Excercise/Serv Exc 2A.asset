@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Serv Exc 2A
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Flatterball
+  description: "Trifft man den Ball mit der flachen Hand und ohne jegliche Rotation
+    \u201Eflattert\u201C er. Um dies machen zu k\xF6nnen sollte man den Ball f\xFCr
+    mehr Stabilit\xE4t mit 2 H\xE4nden aufwerfen und schon beim Aufwurf darauf achten,
+    dass nicht rotiert. Dann schl\xE4gt man den Ball mit der flachen Hand und versucht
+    den Ball genau in der Mitte zu treffen. Den Ball zentral zu treffen ist hierbei
+    Matchentscheidend."
+  repetitions: 20
   level: 2
   excercise: 1
   category: 2

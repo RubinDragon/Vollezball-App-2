@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Serv Exc 1B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Service ins Feld
+  description: Diesmal wird der Ball wirklich geschlagen. Man sollte versuchen das
+    Feld zu treffen. Alternativ kann man auch 9m Abstand von einer Wand nehmen und
+    an der Wand 2.43m einzeichnen (z.B. mit Klebeband oder Kreide). Dann kann man
+    an der 9m Linie den Ball gegen die Wand servieren.
+  repetitions: 20
   level: 1
   excercise: 2
   category: 2

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Pass Exc 1B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Eigenpass
+  description: "Eigenp\xE4sse. Zuerst die eigenen P\xE4sse fangen, wenn die \xDCbung
+    schon gut geht, dann direkt weiter spielen."
+  repetitions: 20
   level: 1
   excercise: 2
   category: 0

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Slap Exc 3B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Abdrehender Schlag - Sprung
+  description: "Man Schl\xE4gt den Ball am Netz mit einem Sprung und versucht, sich
+    Abzudrehen. Die Kraft spielt hierbei keine Rolle. Man soll sich auf die Technik
+    und das Zielen fokussieren. Der Sprung darf auch vernachl\xE4ssigt werden."
+  repetitions: 20
   level: 3
   excercise: 2
   category: 3

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Serv Exc 5A
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Sniper Service
+  description: "Ein Ziel wird festgelegt und man versucht pr\xE4zise darauf zu servieren.
+    In dieser \xDCbung integriert man eine der beiden Servicearten, je nachdem welche
+    einem besser liegt."
+  repetitions: 20
   level: 5
   excercise: 1
   category: 2

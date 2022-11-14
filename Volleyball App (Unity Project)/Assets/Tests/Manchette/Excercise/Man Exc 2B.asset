@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Man Exc 2B
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Manchette mal weit mal kurz
+  description: "Kollege wirft den Ball mal weit und mal kurz zu und man muss den
+    Ball wieder zu ihm zur\xFCck spielen. Der Ball soll auf den Kopf des Mitspielers
+    fallen."
+  repetitions: 20
   level: 2
   excercise: 2
   category: 1

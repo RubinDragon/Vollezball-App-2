@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
   m_Name: Man Exc 5A
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  repetitions: 0
+  title: Salz und Pfeffer vereinfacht
+  description: "Ein Spiel welches Salz und Pfeffer heisst. Man stellt sich zu zweit
+    einander gegen\xFCber auf ca. 6m Abstand. Einer schl\xE4gt den Ball, der andere
+    nimmt ihn ab. Der Spieler, welcher geschlagen hat, passt dann diesen abgenommenen
+    Ball wieder zu anderen Spieler, welcher den Ball dann auch schl\xE4gt und es
+    somit genau gleich in die andere Richtung geht. F\xFCr den Anfang jedoch keine
+    Schl\xE4ge, sondern nur Finten und Angriffsp\xE4sse."
+  repetitions: 20
   level: 5
   excercise: 1
   category: 1
