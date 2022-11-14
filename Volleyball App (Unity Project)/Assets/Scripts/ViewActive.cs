@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Doozy.Engine.UI;
 
 public class ViewActive : MonoBehaviour
 {
@@ -10,23 +11,28 @@ public class ViewActive : MonoBehaviour
     public TextMeshProUGUI text_failCount;
     public TextMeshProUGUI text_overallCount;
 
-    public UiView view_finished;
+    public UIView view_finished;
 
     private float overallCount;
     private float sucessCount;
     private float failCount;
+
+    public void Setup()
+    {
+        overallCount = AppManager.instance.currTest.repetitions;
+    }
 
     public void LoadAllText()
     {
         text_successCount.SetText(sucessCount.ToString());
         text_failCount.SetText(failCount.ToString());
 
-        text_overallCount.SetText(overallCount.ToString() + "/" + AppManager.instance.currTest.repetitions);
+        text_overallCount.SetText(overallCount.ToString());
     }
 
     private void CheckForFinished()
     {
-        if (overallCount >= AppManager.instance.currTest.repetitions)
+        if (overallCount <= 0)
             Finished();
     }
 
@@ -58,7 +64,7 @@ public class ViewActive : MonoBehaviour
         }
 
         Invoke(nameof(CustomReset),0.5f);
-        GetComponent<UiView>().Hide();
+        GetComponent<UIView>().Hide();
 
         AppManager.instance.StopDaDound();
     }
@@ -74,7 +80,7 @@ public class ViewActive : MonoBehaviour
 
     public void OnSuccess()
     {
-        overallCount++;
+        overallCount--;
         sucessCount++;
 
         LoadAllText();
@@ -83,7 +89,7 @@ public class ViewActive : MonoBehaviour
 
     public void OnFailed()
     {
-        overallCount++;
+        overallCount--;
         failCount++;
 
         LoadAllText();

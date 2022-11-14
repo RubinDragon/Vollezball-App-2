@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Doozy.Engine.UI;
 
 public class AppManager : MonoBehaviour
 {
@@ -75,9 +76,9 @@ public class AppManager : MonoBehaviour
 
     #region Buttons
 
-    public UiView twoLevels;
-    public UiView fiveLevels;
-    public UiView theory;
+    public UIView twoLevels;
+    public UIView fiveLevels;
+    public UIView theory; 
 
     public void OnCategoryButtonClick()
 
