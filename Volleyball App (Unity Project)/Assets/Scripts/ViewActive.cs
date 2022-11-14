@@ -6,6 +6,8 @@ using Doozy.Engine.UI;
 
 public class ViewActive : MonoBehaviour
 {
+    public static ViewActive instance;
+
     [Header("References")]
     public TextMeshProUGUI text_successCount;
     public TextMeshProUGUI text_failCount;
@@ -16,6 +18,11 @@ public class ViewActive : MonoBehaviour
     private float overallCount;
     public float sucessCount;
     public float failCount;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     public void Setup()
     {
@@ -65,8 +72,6 @@ public class ViewActive : MonoBehaviour
 
         Invoke(nameof(CustomReset),0.5f);
         GetComponent<UIView>().Hide();
-
-        AppManager.instance.StopDaDound();
     }
 
     public void CustomReset()

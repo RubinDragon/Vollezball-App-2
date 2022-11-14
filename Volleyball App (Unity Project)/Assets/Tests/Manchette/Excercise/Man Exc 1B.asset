@@ -20,3 +20,4 @@ MonoBehaviour:
   excercise: 2
   category: 1
   path: 0
+  videoClip: {fileID: 32900000, guid: 068c559f6f4b0e84ba8b2ac99f0b3f1d, type: 3}

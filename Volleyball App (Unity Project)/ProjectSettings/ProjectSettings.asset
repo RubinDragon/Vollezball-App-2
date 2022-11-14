@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 22
+  serializedVersion: 23
   productGUID: 8f222319840ee9540866a3936787eff8
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -145,6 +145,7 @@ PlayerSettings:
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   enableFrameTimingStats: 0
+  enableOpenGLProfilerGPURecorders: 1
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
@@ -216,6 +217,7 @@ PlayerSettings:
   iOSLaunchScreeniPadCustomStoryboardPath: 
   iOSDeviceRequirements: []
   iOSURLSchemes: []
+  macOSURLSchemes: []
   iOSBackgroundModes: 0
   iOSMetalForceHardShadows: 0
   metalEditorSupport: 1
@@ -318,8 +320,8 @@ PlayerSettings:
     m_GraphicsJobMode: 0
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
-    m_APIs: 150000000b000000
-    m_Automatic: 1
+    m_APIs: 0b00000008000000
+    m_Automatic: 0
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -346,6 +348,7 @@ PlayerSettings:
   m_BuildTargetGroupLightmapEncodingQuality: []
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetNormalMapEncoding: []
+  m_BuildTargetDefaultTextureCompressionFormat: []
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -364,6 +367,7 @@ PlayerSettings:
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
   switchUseGOLDLinker: 0
+  switchLTOSetting: 0
   switchApplicationID: 0x01004b9000490000
   switchNSODependencies: 
   switchTitleNames_0: 
@@ -593,22 +597,23 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    0: dUI_MANAGER;dUI_TextMeshPro
-    1: dUI_MANAGER
-    4: dUI_MANAGER
-    7: dUI_MANAGER
-    13: dUI_MANAGER
-    14: dUI_MANAGER
-    19: dUI_MANAGER
-    21: dUI_MANAGER
-    25: dUI_MANAGER
-    27: dUI_MANAGER
-    28: dUI_MANAGER
-    29: dUI_MANAGER
-    30: dUI_MANAGER
-    31: dUI_MANAGER
-    32: dUI_MANAGER
-    33: dUI_MANAGER
+    : dUI_MANAGER;dUI_TextMeshPro
+    Android: dUI_MANAGER
+    EmbeddedLinux: dUI_MANAGER
+    GameCoreScarlett: dUI_MANAGER
+    GameCoreXboxOne: dUI_MANAGER
+    LinuxHeadlessSimulation: dUI_MANAGER
+    Lumin: dUI_MANAGER
+    Nintendo Switch: dUI_MANAGER
+    PS4: dUI_MANAGER
+    PS5: dUI_MANAGER
+    Stadia: dUI_MANAGER
+    Standalone: dUI_MANAGER
+    WebGL: dUI_MANAGER
+    Windows Store Apps: dUI_MANAGER
+    XboxOne: dUI_MANAGER
+    iPhone: dUI_MANAGER
+    tvOS: dUI_MANAGER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -618,7 +623,6 @@ PlayerSettings:
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
-  useReferenceAssemblies: 1
   enableRoslynAnalyzers: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
@@ -705,4 +709,6 @@ PlayerSettings:
   organizationId: 
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
+  playerDataPath: 
+  forceSRGBBlit: 1
   virtualTexturingSupportEnabled: 0

@@ -64,16 +64,6 @@ public class AppManager : MonoBehaviour
         if(testDone != null) testDone();
     }
 
-    public AudioSource source;
-    public void PlayDaSound()
-    {
-        source.Play();
-    }
-    public void StopDaDound()
-    {
-        source.Stop();
-    }
-
     #region Buttons
 
     public UIView twoLevels;

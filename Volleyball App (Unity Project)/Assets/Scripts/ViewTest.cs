@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class ViewTest : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class ViewTest : MonoBehaviour
 
     public RectTransform scrollRect;
 
+    public VideoPlayer videoPlayer;
+
+    public Image image;
     public void LoadTestData()
     {
         TestData data = null;
@@ -32,8 +36,23 @@ public class ViewTest : MonoBehaviour
 
         AppManager.instance.currTest = data;
 
-        FindObjectOfType<ViewActive>().LoadAllText();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(scrollRect);
+
+        ViewActive.instance.LoadAllText();
+
+        // video
+        if (data.videoClip != null)
+        {
+            videoPlayer.gameObject.SetActive(true);
+            videoPlayer.clip = data.videoClip;
+            videoPlayer.Play();
+        }
+        else
+            if(videoPlayer != null) videoPlayer.gameObject.SetActive(false);
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(scrollRect);
+
+        // Bild
+        ///image.sprite = data.sprite;
     }
 }
