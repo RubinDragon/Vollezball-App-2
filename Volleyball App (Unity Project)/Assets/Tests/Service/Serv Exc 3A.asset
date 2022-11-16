@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Serv Exc 3A
+  m_EditorClassIdentifier: 
+  title: "Grobe Pr\xE4zision"
+  description: 'Man versucht grob in eine Richtung des Felds zu servieren. Am besten
+    unterteilt man sich das Feld in 4 Teile und ein Kollege stellt sich jeweils in
+    einen der vier Teile. '
+  repetitions: 20
+  level: 3
+  excercise: 1
+  category: 2
+  path: 0
+  videoClip: {fileID: 32900000, guid: 71086ebf2f8ab9344adedcfe5b71facf, type: 3}

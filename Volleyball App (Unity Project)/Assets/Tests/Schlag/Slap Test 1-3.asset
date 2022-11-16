@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Slap Test 1-3
+  m_EditorClassIdentifier: 
+  title: 'Von der Hand an die Wand '
+  description: "Der Ball wird mit der Hand geschlagen. Der Ball muss einen Vorw\xE4rtsdrall
+    haben, gegen den Boden,- und die Wand prallen und danach wieder gefangen werden.
+    Der Ball muss am h\xF6chsten Punkt geschlagen werden, dies ist eine Wiederholung.
+    Du brauchst 9/20 Punkte um das zweite,- und 18/20 Punkte um das dritte Level
+    erreichen."
+  repetitions: 20
+  level: 1
+  excercise: 0
+  category: 3
+  path: 1
+  videoClip: {fileID: 32900000, guid: 84544a15997a61b49ac83dfb0bac3f08, type: 3}

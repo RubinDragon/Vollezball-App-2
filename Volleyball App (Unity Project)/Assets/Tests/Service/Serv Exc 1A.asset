@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Serv Exc 1A
+  m_EditorClassIdentifier: 
+  title: Serviceaufwurf
+  description: "Der Ball wird aufgeworfen und an der h\xF6chsten Stelle geschlagen.
+    Anders als beim Schlag nicht vor dem K\xF6rper, sondern eher gerade \xFCber dem
+    K\xF6rper. Das Feld zu treffen, spielt aktuell keine Rolle. Es sollte mehr auf
+    den Aufwurf und auf die Schlagtechnik geachtet werden."
+  repetitions: 20
+  level: 1
+  excercise: 1
+  category: 2
+  path: 0
+  videoClip: {fileID: 32900000, guid: 9487af140cf74bc4a8bcc304d0b774fc, type: 3}

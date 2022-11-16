@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Pass Exc 4B
+  m_EditorClassIdentifier: 
+  title: "R\xFCckw\xE4rtspass"
+  description: "Mit zwei Kollegen stellt man sich in einer Reihe auf. Die Kollegen
+    aussen schauen zum Kollegen in der Mitte. Dann f\xE4ngt ein \xC4usserer an, einen
+    Pass zum Mittleren zu spielen. Der Mittlere leitet den Ball anschliessend per
+    R\xFCckw\xE4rtspass zum 3. weiter. Der 3. macht einen Eigenpass (um dem Mittleren
+    Zeit zu geben, sich umzudrehen) und passt ihn wieder zur\xFCck in die Mitte.
+    Der Mittlere leitet den Ball wieder mit einem R\xFCckw\xE4rtspass weiter, wieder
+    zur\xFCck zum Ersten. Dieser gibt sich einen Eigenpass, passt den Ball in die
+    Mitte usw."
+  repetitions: 20
+  level: 4
+  excercise: 2
+  category: 0
+  path: 0
+  videoClip: {fileID: 0}

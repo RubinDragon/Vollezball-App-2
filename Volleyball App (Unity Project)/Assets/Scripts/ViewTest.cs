@@ -55,4 +55,5 @@ public class ViewTest : MonoBehaviour
         // Bild
         ///image.sprite = data.sprite;
     }
+    
 }

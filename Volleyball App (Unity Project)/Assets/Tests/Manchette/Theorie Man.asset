@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Theorie Man
+  m_EditorClassIdentifier: 
+  title: Theorie Manchette
+  description: "Ausgangsposition: F\xFCsse sind etwas mehr als schulterbreit positioniert,
+    der K\xF6rper zeigt in ewta die Richtung, zu der der Ball hinsollte. In die Knie
+    gehen, Gewicht auf die Fu\xDFballen verlagern, Arme in Krebsposition vor dem
+    K\xF6rper f\xFCr Bereitschaft bringen, um oben oder unten annehmen zu k\xF6nnen.
+    (Bild) Man verschiebt sich, wenn m\xF6glich, immer hinter den Ball um diesen
+    zu spielen (Ball sollte zwischen K\xF6rper und dem Ziel, wo der Ball hinfliegen
+    soll, sein). Man Sollte nicht mehr in Bewegung sein, wenn der Ball gespielt wird.
+    Wenn der Ball nach rechts abgenommen werden soll, ist der linke Fuss vorne, wenn
+    er nach links abgenommen werden soll, ist der rechte Fuss vorne. Wenn er geradeaus
+    abgenommen wird, sind die F\xFCsse parallel. Die Arme strecken sich komplett
+    nach vorne aus, die Ellenbogen dreht man so fest wie m\xF6glich ein. Mit der
+    einen Hand formt man eine Faust, mit der anderen Hand umgreift man diese. Die
+    Daumen sollten in der Mitte und parallel zueinander sein. [Bild] Die Schultern
+    streckt man nach vorne. Man sollte mit den Unterarmen eine Plattform bilden.
+    Der Ball wird mit den Unterarmen getroffen. Optimalerweise trifft man ihn beim
+    Unterarmbereich. (Bild) Beim Kontaktieren des Balls sollten die Arme nicht bewegt
+    werden. Je nach Geschwindigkeit, mit welcher der Ball angeflogen kommt, gibt
+    man den Ball entweder noch einen Impuls dazu, sodass er genug weit fliegt, oder
+    man absorbiert die Geschwindigkeit des Balls, falls der Ball schneller angeflogen
+    kommt. Dies macht man, indem man den Ball abfedert.  Den Impuls des schw\xE4cheren
+    Balls gibt man ihm hinzu, indem man haupts\xE4chlich mit den Beinen die zus\xE4tzlich
+    ben\xF6tigte Kraft hinzugibt. Die Arme sollten optimalerweise gestreckt bleiben.
+    (Video) Die Flugbahn des Balls sollte so sein, dass er dem Zuspieler auf den
+    Kopf f\xE4llt und dieser nicht laufen muss. "
+  repetitions: 0
+  level: 0
+  excercise: 0
+  category: 1
+  path: 2
+  videoClip: {fileID: 0}

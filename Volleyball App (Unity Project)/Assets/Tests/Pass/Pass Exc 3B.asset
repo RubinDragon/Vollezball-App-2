@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Pass Exc 3B
+  m_EditorClassIdentifier: 
+  title: "Pass am Netz r\xFCckw\xE4rts"
+  description: "Man spielt parallel zu einer Wand oder einem Netz einen Ball im hohen
+    Bogen r\xFCckw\xE4rts auf ein vorher definiertes Ziel. Das Ziel sollte in etwa
+    dort sein, wo der Ball im Spiel geschlagen werden w\xFCrde. Beim R\xFCckw\xE4rtspass
+    muss man beachten, dass man nicht seitw\xE4rts spielt, sondern wirklich r\xFCckw\xE4rts. "
+  repetitions: 20
+  level: 3
+  excercise: 2
+  category: 0
+  path: 0
+  videoClip: {fileID: 32900000, guid: 0f33f4c42f03668449ee8a7752703746, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Pass Exc 4A
+  m_EditorClassIdentifier: 
+  title: Pass am Netz 2
+  description: Man spielt auf ein etwas kleineres Ziel oder einen Mitspieler einer
+    Wand oder dem Netz entlang. Der Kollege kann sich auch daran versuchen den Ball
+    zu schlagen.
+  repetitions: 20
+  level: 4
+  excercise: 1
+  category: 0
+  path: 0
+  videoClip: {fileID: 32900000, guid: 49500ce714c3897458c09b5ce67969da, type: 3}

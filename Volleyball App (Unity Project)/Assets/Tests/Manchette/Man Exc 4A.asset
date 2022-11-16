@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Man Exc 4A
+  m_EditorClassIdentifier: 
+  title: Schlag- und Fintenabnahme
+  description: "Der Ball wird von einer ca. 5-7m Entfernung gefintet oder geschlagen.
+    Das Ziel ist es, den Ball wieder auf den Kopf des Mitspielers zur\xFCck zu bringen.
+    Wenn es m\xF6glich ist, versuchen direkt weiterspielen."
+  repetitions: 20
+  level: 4
+  excercise: 1
+  category: 1
+  path: 0
+  videoClip: {fileID: 32900000, guid: 10928dd3f817a0549b0eaf5f33301d4d, type: 3}

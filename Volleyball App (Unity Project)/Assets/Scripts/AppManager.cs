@@ -117,14 +117,14 @@ public class AppManager : MonoBehaviour
         if (index == 2) level = 3;
         if (index == 3) level = 4;
         if (index == 4) level = 5;
-
+        if (index == 5) level = 0;
     }
 
     public void SetExcercise(int index)
     {
         if (index == 0) excercise = 1;
         if (index == 1) excercise = 2;
-
+        if (index == 2) excercise = 0;
     }
 
 
@@ -301,3 +301,4 @@ public class PlayerStats
     public int serviceLevel = 1;
     public int schlagLevel = 1;
 }
+

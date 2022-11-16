@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Serv Exc 1B
+  m_EditorClassIdentifier: 
+  title: Service ins Feld
+  description: Diesmal wird der Ball wirklich geschlagen. Man sollte versuchen das
+    Feld zu treffen. Alternativ kann man auch 9m Abstand von einer Wand nehmen und
+    an der Wand 2.43m einzeichnen (z.B. mit Klebeband oder Kreide). Dann kann man
+    an der 9m Linie den Ball gegen die Wand servieren.
+  repetitions: 20
+  level: 1
+  excercise: 2
+  category: 2
+  path: 0
+  videoClip: {fileID: 32900000, guid: b71280d357ed9b44fa481037678989f2, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a0824750935b2498ff2c5c301b03bb, type: 3}
+  m_Name: Serv Exc 3B
+  m_EditorClassIdentifier: 
+  title: "Grobe Pr\xE4zision 2"
+  description: "Man nimmt eine Matte oder etwas \xE4hnliches (ein wenig gr\xF6sser)
+    und versucht darauf oder in die N\xE4he davon (ca. 1m umkreis) zu servieren. "
+  repetitions: 20
+  level: 3
+  excercise: 2
+  category: 2
+  path: 0
+  videoClip: {fileID: 32900000, guid: 0a3503e9dd296d347a0f6512ec818eb3, type: 3}
